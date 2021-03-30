@@ -1,0 +1,69 @@
+footer{
+    grid-area: f;
+    background-color: black;
+    
+
+    padding: 50px;
+
+}
+form{
+   padding-top: -10px;
+}
+footer h4{
+    text-align: center;
+    color: white;
+}
+.texto{
+    display: block;
+    text-align: center;
+    color: white;
+}
+input[type = "email"]{
+    display: inline-flex;
+	color: white;
+	background: none;
+	display: block;
+	margin: 5px auto;
+	text-align: center;
+	border: 2px solid #1d1d1d;
+	border-radius: 20px;
+	padding: 10px;
+	width: 500px;
+	outline: none;
+	transition: 0.35s;
+}
+input[type = "email"]:focus{
+    width: 550px;
+    border-color: #F2B138;
+}
+button[type ="button"]{
+	color: white;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	outline: none;
+	transition: 0.35s;
+	cursor: pointer
+}
+button[type ="button"]:hover{
+    background-color: #F2B138;
+}
+.nav_linksf h3{
+    color: white;
+}
+.nav_linksf{
+    display: inline-flex;
+    text-align: center;
+}
+.ul_linksf {
+    display: inline-flex;
+    color: white;
+}
+.ul_linksf img{
+    background-color: white;
+    border-radius: 10px;
+}
