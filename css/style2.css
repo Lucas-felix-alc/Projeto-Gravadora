@@ -1,0 +1,98 @@
+main{
+    height: 100vh;
+    background-image: url(../img/bg_musica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.div_gravar{
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+}
+
+.div_gravar h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+}
+
+.secao2{
+    width: 20%;
+    position: relative;
+    left: 65%;
+}
+
+.box_video{
+    width: 50%;
+    height: 350px;
+    border: 8px solid black;
+    border-radius: 10px;
+}
+.box{
+	width: 299px;
+    height: 400px;
+	padding: 40px;
+	background: #000000;
+    border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 6px;
+    margin-top: -30px;
+}
+
+@media(max-width: 1200px){
+    .box{
+        display: none;
+    }
+    .box_video{
+        width: 100%;
+    }
+}
+.box h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+	color: #fff;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #1d1d1d;
+	border-radius: 20px;
+	padding: 10px;
+	width: 200px;
+	outline: none;
+	transition: 0.35s;
+}
+
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+	width: 220px;
+	border-color: #F2B138;
+
+}
+.box input[type ="submit"]{
+	color: #fff;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 20px;
+	padding: 10px 30px;
+	outline: none;
+	transition: 0.35s;
+	cursor: pointer;
+}
+.box input[type ="submit"]:hover{
+	background-color: #F2B138;
+
+}
+   
+
